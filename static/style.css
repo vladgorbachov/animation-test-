@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+#scene {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#character {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-image: url('/static/vault boy.png');
+    background-size: cover;
+}
+
+#ship {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    background-image: url('/static/seahorse.jpg');
+    background-size: cover;
+}
